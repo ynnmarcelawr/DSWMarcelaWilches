@@ -55,6 +55,14 @@ h3 {
 }
 
 .Introduccion {
+    background-color: white;
+    float: left;
+    color: #333333;
+    text-align: justify;
+    font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
+}
+
+.Redes {
     color: #333333;
     text-align: justify;
     font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
