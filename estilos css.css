@@ -54,18 +54,32 @@ h3 {
     font-size: 16px;
 }
 
-.Introduccion {
+.Ccontenido {
     background-color: white;
+    position: static;
+    padding: 10px;
+}
+
+.Introduccion {
     float: left;
+    width: 500px;
+    background-color: white;
     color: #333333;
     text-align: justify;
     font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
 }
 
 .Redes {
+    float: left;
+    width: 500px;
     color: #333333;
     text-align: justify;
     font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
+}
+
+.Pie {
+    background-color: #F47920;
+    clear:both;
 }
 
 .DivPie1 {
