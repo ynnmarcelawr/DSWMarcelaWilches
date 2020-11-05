@@ -54,15 +54,16 @@ h3 {
     font-size: 16px;
 }
 
-.Ccontenido {
-    background-color: white;
+.Contenido {
+    background-color: green;
     position: static;
     padding: 10px;
 }
 
 .Introduccion {
-    float: left;
-    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
     background-color: white;
     color: #333333;
     text-align: justify;
@@ -70,16 +71,22 @@ h3 {
 }
 
 .Redes {
-    float: left;
-    width: 500px;
+    float: right;
+    height:50px;
+    width:400px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    background-color: white;
     color: #333333;
     text-align: justify;
     font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
 }
 
 .Pie {
+
     background-color: #F47920;
-    clear:both;
+    margin: auto;
 }
 
 .DivPie1 {
@@ -93,6 +100,7 @@ h3 {
 }
 
 .DivPie2 {
+
     background-color: #F47920;
     padding: 10px;
     padding-right: 140px;
