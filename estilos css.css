@@ -22,23 +22,38 @@
 }
 
 nav ul {
-    list-style: none;
-    overflow: hidden;
     display: flex;
+    list-style: none;
     justify-content: center;
 }
-  
-nav ul li a {
-    float: left;
+
+nav a {
+    display: block;
     padding: 20px;
-    font-family: 'Franklin Gothic Book';
-
-    color: #fff;
+    background-color: #005883;
     text-decoration: none;
-  }
+    color: white;
+    font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
+    font-size: px;
+}
 
-nav ul li a:hover {
+nav a:hover {
     background-color: #F0B429;
+}
+
+nav li {
+    float:left;
+}
+
+nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+nav li:hover > ul {
+    display:block;
+    list-style: none;
 }
 
 h2 {
@@ -96,6 +111,21 @@ h3 {
 
 .link{
     color: #808080;
+}
+
+.Conceptos {
+    background-color: white;
+    padding: 10px;
+    position: static;
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    height: 1100px;
+    background-color: white;
+    color: #808080;
+    text-align: justify;
+    font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
+    font-size: 16px;
 }
 
 .DivAzul {
