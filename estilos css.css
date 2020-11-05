@@ -13,7 +13,7 @@
 .TituloPrincipal {
     color: #F47920;
     text-align: center;
-    font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
+    font-family: 'Franklin Gothic Heavy';
 }
 
 .DivMenu {
@@ -31,7 +31,7 @@ nav ul {
 nav ul li a {
     float: left;
     padding: 20px;
-    font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
+    font-family: 'Franklin Gothic Book';
 
     color: #fff;
     text-decoration: none;
@@ -58,30 +58,48 @@ h3 {
     background-color: white;
     padding: 10px;
     position: static;
+    height: 1100px;
+}
+
+.Imagen {
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    overflow: hidden;
+    margin: 10px;
 }
 
 .Introduccion {
     position: static;
     display: inline-block;
-    width: 75%;
+    width: 70%;
+    padding: 10px;
+    height: 1000px;
     background-color: white;
-    color: #333333;
+    color: #808080;
     text-align: justify;
     font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
+    font-size: 16px;
 }
 
 .Redes {
     float: right;
     width: 25%;
+    padding: 10px;
+    height: 1000px;
     background-color: white;
-    color: #333333;
+    color: #808080;
     text-align: justify;
     font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
-    font-size: 8px;
+    font-size: 12px;
+}
+
+.a :hover {
+    color: #808080;
 }
 
 .Pie {
-
+    position: static;
     background-color: #F47920;
     margin: auto;
 }
@@ -97,7 +115,6 @@ h3 {
 }
 
 .DivPie2 {
-
     background-color: #F47920;
     padding: 10px;
     padding-right: 140px;
