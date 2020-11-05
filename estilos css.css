@@ -94,8 +94,13 @@ h3 {
     font-size: 12px;
 }
 
-.a :hover {
+.link{
     color: #808080;
+}
+
+.DivAzul {
+    background-color: #005883;
+    height: 15px;
 }
 
 .Pie {
