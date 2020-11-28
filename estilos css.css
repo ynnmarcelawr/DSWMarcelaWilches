@@ -93,6 +93,7 @@ h3 {
     text-align: justify;
     font-family: 'Franklin Gothic Book', 'Franklin Gothic Italic';
     font-size: 16px;
+    align-content: center;
 }
 
 .Redes {
@@ -137,6 +138,8 @@ h3 {
     object-position: center center;
     overflow: hidden;
     margin: 0px;
+    align-content: center;
+    align-items: center;
 }
 
 .DivAzul {
