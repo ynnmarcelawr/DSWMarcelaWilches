@@ -133,12 +133,10 @@ h3 {
 }
 
 .iframe {
-    width: 100%;
-    height: 500px;
     object-fit: cover;
     object-position: center center;
     overflow: hidden;
-    margin: 10px;
+    margin: 0px;
 }
 
 .DivAzul {
